@@ -1,6 +1,12 @@
+
+
+const mytrack= 'FrontEnd Track';
+const slackUserName = 'Ebenezer Onuche';
+
 const dayOfTheWeek = ()=>{
 const date = new Date();
 const day = date.getDay();
+
 var answer;
 switch(day) {
   case 6:
@@ -27,7 +33,7 @@ switch(day) {
   default:
     answer = "Not a day of the week";}
 
-document.getElementById("current_day").innerHTML = answer; 
+document.getElementById("currentDayOfTheWeek").innerHTML = answer; 
 
 };
 
@@ -35,11 +41,13 @@ document.getElementById("current_day").innerHTML = answer;
 const utcTime = ()=>{
   const date = new Date();
   let utcDate = date.getUTCMilliseconds();
-  document.getElementById("current_time").innerHTML = `${utcDate} `; 
+    document.getElementById("currentUTCTime").innerHTML = `${utcDate} `; 
   
-
+  
 }
 
+setInterval(utcTime, 250);
+document.getElementById("myTrack").innerHTML = mytrack; 
+document.getElementById("slackUserName").innerHTML = slackUserName; 
 dayOfTheWeek();
-utcTime();
 
