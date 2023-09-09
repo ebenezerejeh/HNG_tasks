@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css"  rel="stylesheet"/> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <title>HNG TASK ONE</title>
+</head>
+<body>
+    <div class="main_container">
+       <div class="image_container">
+
+                <div class="image_avatar">
+                    <div class="avatar_modal"></div>
+                    <img data-testid="slackDisplayImage" src="./assets/ebenezer2.png" alt="ebenezer onuche"/></div>
+
+       </div>
+       <div class="detail_container">
+
+                    <div class="name_track">
+                    <p >Hi, i'm <span  data-testid="slackUserName">
+                        Ebenezer Onuche</span>, </p>
+                        <p>currently on the <span  data-testid="myTrack">FrontEnd Track</span> </p>
+
+                    </div>
+                    <div class="date_time">
+                       <p class="day"><span data-testid="currentDayOfTheWeek" id="current_day"></span></p>
+                        <p class="time" ><span data-testid="currentUTCTime"
+                         id="current_time"></span>UTC</p>
+
+
+                    </div>
+        
+
+       </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

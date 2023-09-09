@@ -1,0 +1,337 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+
+@media screen and (max-width: 649px) {
+
+
+    .main_container {
+            width: 100%;
+            background-image: url(./assets/background_image2.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+    
+    
+        }
+    
+        .detail_container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            
+        }
+    
+        .name_track {
+            font-size: 30px;
+            text-transform: capitalize;
+            font-weight: bold;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            width:100%;
+            text-align: center;
+        }
+    
+        .image_container {
+            width: 100%;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+    
+        }
+    
+        .avatar_modal {
+            position: absolute;
+            color: white;
+            width: 40vw;
+            height: 600px;
+            z-index: 2;
+            border-radius: 200px;
+            background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+        }
+    
+        .image_avatar {
+            position: relative;
+            background-color: black;
+            width: 60vw;
+            padding: 0px;
+            border-radius: 300px;
+            overflow: hidden;
+        }
+    
+        .image_avatar:hover {
+            filter: grayscale(100%);
+            cursor: pointer;
+    
+    
+        }
+    
+        .image_avatar>img {
+            width: 100%;
+            border-radius: 300px;
+    
+    
+    
+    
+        }
+    
+        .date_time {
+            height: 250px;
+            width: 230px;
+            background-image: url(./assets/calender.jpg);
+            background-size: 100% 100%;
+            border-radius: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    
+        .day {
+            height: 100px;
+            font-size: 28px;
+            padding-top: 60px;
+            text-align: center;
+            
+        }
+        
+        .time {
+            height: 130px;
+            padding-top: 10px;
+            font-size: 35px;
+            text-align: center;
+            color: black;
+    
+        }
+
+
+}
+
+@media screen and (min-width: 650px) and (max-width: 829px) {
+
+    .main_container {
+            width: 100%;
+            background-image: url(./assets/background_image2.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: row-reverse;
+    
+    
+        }
+    
+        .detail_container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            
+        }
+    
+        .name_track {
+            font-size: 38px;
+            text-transform: capitalize;
+            font-weight: bold;
+            margin-top: 100px;
+            margin-bottom: 50px;
+            padding-left: 30px;
+        }
+    
+        .image_container {
+            
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+        }
+    
+        .avatar_modal {
+            position: absolute;
+            color: white;
+            width: 40vw;
+            height: 600px;
+            z-index: 2;
+            border-radius: 200px;
+            background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+        }
+    
+        .image_avatar {
+            position: relative;
+            background-color: black;
+            width: 40vw;
+            padding: 0px;
+            border-radius: 300px;
+            overflow: hidden;
+        }
+    
+        .image_avatar:hover {
+            filter: grayscale(100%);
+            cursor: pointer;
+    
+    
+        }
+    
+        .image_avatar>img {
+            width: 100%;
+            border-radius: 300px;
+    
+    
+    
+    
+        }
+    
+        .date_time {
+            height: 230px;
+            width: 250px;
+            background-image: url(./assets/calender.jpg);
+            background-size: 100% 100%;
+            border-radius: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    
+        .day {
+            height: 130px;
+            font-size: 30px;
+            padding-top: 40px;
+            text-align: center;
+    
+        }
+    
+        .time {
+            height: 130px;
+            font-size: 50px;
+            text-align: center;
+            color: black;
+    
+        }
+
+
+}
+
+
+@media screen and (min-width: 830px) {
+
+.main_container {
+        width: 100%;
+        background-image: url(./assets/background_image2.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: row-reverse;
+
+
+    }
+
+    .detail_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        
+    }
+
+    .name_track {
+        font-size: 48px;
+        text-transform: capitalize;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding-left: 40px;
+    }
+
+    .image_container {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .avatar_modal {
+        position: absolute;
+        color: white;
+        width: 40vw;
+        height: 600px;
+        z-index: 2;
+        border-radius: 200px;
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    }
+
+    .image_avatar {
+        position: relative;
+        background-color: black;
+        width: 40vw;
+        padding: 0px;
+        border-radius: 300px;
+        overflow: hidden;
+    }
+
+    .image_avatar:hover {
+        filter: grayscale(100%);
+        cursor: pointer;
+
+
+    }
+
+    .image_avatar>img {
+        width: 100%;
+        border-radius: 300px;
+
+
+
+
+    }
+
+    .date_time {
+        height: 280px;
+        width: 300px;
+        background-image: url(./assets/calender.jpg);
+        background-size: 100% 100%;
+        border-radius: 20px;
+        font-size: 32px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .day {
+        height: 130px;
+        font-size: 40px;
+        padding-top: 40px;
+        text-align: center;
+
+    }
+
+    .time {
+        height: 130px;
+        font-size: 60px;
+        text-align: center;
+        color: black;
+
+    }
+
+
+
+}
+
+
+
